@@ -31,9 +31,14 @@ body {
 }
 
 header {
-    background-image: url('../img/topo.png');
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000063+0,7119a3+35,000000+100&1+0,1+35,0+75 */
+background: -moz-linear-gradient(top,  rgba(0,0,99,1) 0%, rgba(113,25,163,1) 35%, rgba(43,10,63,0) 75%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,99,1) 0%,rgba(113,25,163,1) 35%,rgba(43,10,63,0) 75%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,99,1) 0%,rgba(113,25,163,1) 35%,rgba(43,10,63,0) 75%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000063', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
     width: 100%;
-    height: 868px;
+    height: 760px;
 }
 
 .logo {
